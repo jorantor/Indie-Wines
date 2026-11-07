@@ -2898,3 +2898,28 @@
 }
 
 
+
+/* Sync Configuration Overview and Indie Patio from Webflow, November 2026. */
+.configuration-overview .the-patio-content { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.configuration-overview .configurations-table { gap: 10px; }
+.configuration-overview .the-patio-media { min-width: 0; }
+.configuration-overview .the-patio-media img { display: block; width: 100%; height: auto; }
+.patio-section .div-3 { height: 350px; }
+.patio-section .div { height: 280px; }
+.patio-section .image-13 { object-position: 50% 65%; }
+.patio-section .image-13.patio-four { object-position: 50% 35%; }
+.patio-section .image-14.patio-five { object-position: 50% 60%; }
+.patio-section .image-15.patio-one { object-position: 50% 100%; }
+@media screen and (max-width: 991px) {
+  .configuration-overview .the-patio-media,
+  .configuration-overview .the-patio-content { width: 90%; }
+  .patio-section .image-14.patio-five,
+  .patio-section .image-15.patio-one { object-position: 50% 50%; }
+}
+@media screen and (max-width: 479px) {
+  .configuration-overview .the-patio-content { width: 100%; padding: 13px 0; }
+  .configuration-overview .configurations-table { padding: 15px 0; gap: 5px; }
+  .configuration-overview .configuratrions-card { gap: 10px; }
+  .configuration-overview .capacity { flex-shrink: 0; gap: 6px; font-size: 12px; }
+  .configuration-overview .capacity .card-eyebrow { font-size: 10px; }
+}
